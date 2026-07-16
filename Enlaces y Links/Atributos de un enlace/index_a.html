@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 1</title>
+</head>
+<body>
+    <h1>Inicio</h1>
+
+    <p>En esta pagina mostraremos la conexion entre un archivo html con otros, lo cual seria su conexion. <br>Para lograr esto necesitamos, de otros archivos</p>
+    
+    <a href="index_ej.html">Ejemplo</a>
+    
+    <p>Como nos podemos dar cuenta es una de las maneras en la que se puede navegar por pestañas estando en una misma. <br>Lo unico que cambia es como queremos que pase a la otra pagina, para eso tenemos des opciones, serian estando en la misma pestaña y que se abra en esa misma el archivo, o abrir una nueva pestaña y cargar el archivo.</p>
+
+    <h3>Ejemplo de como se hace.</h3>
+
+    <a href="index_b.html">Carga en la misma pagina <br></a>
+    <a href="index_c.html" target="_blank">Carga en una pagina nueva</a>
+
+    <h2>La pregunta del millon</h2>
+    <h3>¿Como hacerlo?</h3>
+
+    <p>Para hacerlo, tenemos que utilizar la etiqueta a
+        <pre>
+            <code>
+                 &lt;a href="index.html"&gt;&lt;/a&gt;
+            </code>
+        </pre>
+        lo unico que cambia es la direccion dentro de <em>href</em> y un atributo que seria <strong>target</strong>, el cual lo usariamos de las siguientes formas:
+        <ul>
+            <li>_self</li>
+            <p>El cual hace que la pestaña se abra por defecto en la misma que se encuentra.</p>
+            <li>_blank</li>
+            <p>Este hace que la pagina se abra en una nueva pestaña.</p>
+            <li>Entre otros</li>
+            <p>Hay dos mas pero no son tan utiles mientras uno esta aprendiendo, despues puede que sirvan para otras cosas</p>
+
+        </ul>
+    </p>
+
+</body>
+</html>
